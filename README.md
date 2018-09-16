@@ -25,4 +25,4 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
 - **Date:** `2018-09-19`
 - **Difficulty:** 
 - **Description:** Given a binary array, find the maximum number of consecutive 1s in this array.
-- Solutions
+- **Solutions:**

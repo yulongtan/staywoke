@@ -23,6 +23,14 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
 #### Max Consecutive Ones
 - [Link](https://leetcode.com/problems/max-consecutive-ones/description/)
 - **Date:** `2018-09-19`
-- **Difficulty:** 
+- **Difficulty:** Easy
 - **Description:** Given a binary array, find the maximum number of consecutive 1s in this array.
+- **Solutions:**
+  - [MaxConsecutiveOnes.java](java/MaxConsecutiveOnes.java)
+
+#### Move Zeroes
+- [Link](https://leetcode.com/problems/move-zeroes/)
+- **Date:** `2018-09-24`
+- **Difficulty:** Easy
+- **Description:** Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 - **Solutions:**

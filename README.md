@@ -9,6 +9,7 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
 - Easy
   - [Reverse (2018-09-15)](#reverse)
   - [Max Consecutive Ones (2018-09-19)](#max-consecutive-ones)
+  - [MoveZeroes (2018-10-01)](#move-zeroes)
 
 #### Reverse
 - [Link](https://leetcode.com/problems/reverse-string/) 
@@ -35,3 +36,14 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
 - **Description:** Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 - **Solutions:**
   - [MoveZeroes.java](java/MoveZeroes.java)
+
+#### Implement Queue using Stack
+- [Link](https://leetcode.com/problems/implement-queue-using-stacks/)
+- **Date:** `2018-10-03`
+- **Difficulty:** Easy
+- **Description:** Implement the following operations of a queue using stacks.
+  - push(x) -- Push element x to the back of queue.
+  - pop() -- Removes the element from in front of queue.
+  - peek() -- Get the front element.
+  - empty() -- Return whether the queue is empty.
+- **Solutions:**

@@ -30,7 +30,8 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
 
 #### Move Zeroes
 - [Link](https://leetcode.com/problems/move-zeroes/)
-- **Date:** `2018-09-24`
+- **Date:** `2018-10-01`
 - **Difficulty:** Easy
 - **Description:** Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 - **Solutions:**
+  - [MoveZeroes.java](java/MoveZeroes.java)

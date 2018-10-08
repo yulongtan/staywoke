@@ -60,3 +60,10 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
   - empty() -- Return whether the stack is empty.
 - **Solutions:**
   - [StackWithQueue.java](java/StackWithQueue.java)
+
+#### Middle of the Linked List
+- [Link](https://leetcode.com/problems/middle-of-the-linked-list/)
+- **Date:** `2018-10-10`
+- **Difficulty:** Easy
+- **Description:** Given a non-empty, singly linked list with head node head, return a middle node of linked list. If there are two middle nodes, return the second middle node.
+- **Solutions:**

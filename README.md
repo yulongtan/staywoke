@@ -39,7 +39,7 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
 
 #### Implement Queue using Stack
 - [Link](https://leetcode.com/problems/implement-queue-using-stacks/)
-- **Date:** `2018-10-03`
+- **Date:** `2018-10-08`
 - **Difficulty:** Easy
 - **Description:** Implement the following operations of a queue using stacks.
   - push(x) -- Push element x to the back of queue.
@@ -47,3 +47,16 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
   - peek() -- Get the front element.
   - empty() -- Return whether the queue is empty.
 - **Solutions:**
+  - [QueueWithStack.java](java/QueueWithStack.java)
+
+#### Implement Stack using Queue
+- [Link](https://leetcode.com/problems/implement-stack-using-queues/)
+- **Date:** `2018-10-08`
+- **Difficulty:** Easy
+- **Description:** Implement the following operations of a stack using queues.
+  - push(x) -- Push element x onto stack.
+  - pop() -- Removes the element on top of the stack.
+  - peek() -- Get the top element.
+  - empty() -- Return whether the stack is empty.
+- **Solutions:**
+  - [StackWithQueue.java](java/StackWithQueue.java)

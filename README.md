@@ -69,10 +69,11 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
 - **Solutions:**
   - [MiddleNode.java](java/MiddleNode.java)
 
-  #### Contains
+#### Contains
 - [Link]()
 - **Date:** `2018-10-24`
 - **Difficulty:**
 - **Description:** Without using contains, implement the contains method for strings. 
 - **Solutions:**
   - [Contains.js](js/Contains.js)
+  - [Contains.java](java/Contains.java)

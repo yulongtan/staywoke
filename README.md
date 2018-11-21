@@ -77,3 +77,19 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
 - **Solutions:**
   - [Contains.js](js/Contains.js)
   - [Contains.java](java/Contains.java)
+
+#### FindAllDuplicatesInArray
+- [Link](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+- **Date:** `2018-11-14`
+- **Difficulty:** Medium
+- **Description:** Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+- **Solutions:**
+  - [FindDuplicates.js](js/FindDuplicates.js)
+
+#### Same Tree
+- [Link](https://leetcode.com/problems/same-tree/)
+- **Date:** `2018-11-21`
+- **Difficulty:** Easy
+- **Description:** Given two binary trees, write a function to check if they are the same or not. Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
+- **Solutions:**
+  - [SameTree.js](js/SameTree.js)

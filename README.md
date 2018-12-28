@@ -93,3 +93,18 @@ This repo is dedicated to keeping our minds fresh on programming problems. These
 - **Description:** Given two binary trees, write a function to check if they are the same or not. Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
 - **Solutions:**
   - [SameTree.js](js/SameTree.js)
+
+#### Merge Two Binary Trees
+- [Link](https://leetcode.com/problems/merge-two-binary-trees/)
+- **Date:** `2018-11-28`
+- **Difficulty:** Easy
+- **Description:** Given two binary trees and imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not. You need to merge them into a new binary tree. The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node. Otherwise, the NOT null node will be used as the node of new tree.
+- **Solutions:**
+
+#### LongestPalindrome
+- [Link]()
+- **Date:** `2018-12-28`
+- **Difficulty:** Easy
+- **Description:** Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters. This is case sensitive, for example "Aa" is not considered a palindrome here.
+- **Solutions:**
+  - - [LongestPalindrome.js](js/LongestPalindrome.js)

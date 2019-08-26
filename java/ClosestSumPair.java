@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 // https://www.youtube.com/watch?v=GBuHSRDGZBY
-public class CSP {
+public class ClosestSumPair {
     public static void main(String[] args) {
         // NOTE: You can use the following input values to test this function.
         int[] a1 = {-1, 3, 8, 2, 9, 5};

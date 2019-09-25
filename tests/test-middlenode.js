@@ -5,14 +5,14 @@ const middleNode = require('../js/MiddleNode');
 
 describe('Testing middleNode', () => {
 
-  it('Null case', () => {
+  it('returns null when head is null', () => {
     const node = null;
     const expected = null;
     const actual = middleNode(node);
     expect(actual).to.equal(expected);
   });
 
-  it('3 -> 1 -> 5 : 1', () => {
+  it('returns middle node - odd case', () => {
     const node = new Node(3);
     node.next = new Node(1);
     node.next.next = new Node(5);
@@ -21,7 +21,7 @@ describe('Testing middleNode', () => {
     expect(actual).to.equal(expected);
   });
 
-  it('3 -> 1 -> 5 -> 6 : 1', () => {
+  it('returns middle node - even case', () => {
     const node = new Node(3);
     node.next = new Node(1);
     node.next.next = new Node(5);
@@ -31,9 +31,16 @@ describe('Testing middleNode', () => {
     expect(actual).to.equal(expected);
   });
 
-  it('3 -> 1 : 3', () => {
+  it('returns the first node when there is only one', () => {
     const node = new Node(3);
-    node.next = new Node(1);
+    const expected = node;
+    const actual = middleNode(node);
+    expect(actual).to.equal(expected);
+  });
+
+  it('returns the first node when there are two', () => {
+    const node = new Node(3);
+    node.next = new Node(4);
     const expected = node;
     const actual = middleNode(node);
     expect(actual).to.equal(expected);

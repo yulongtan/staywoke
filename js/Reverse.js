@@ -1,5 +1,8 @@
 // Given a string, return it reversed
 function reverse(s) {
+  if (!s) {
+    return '';
+  }
   if (s.length < 2) {
     return s;
   }

@@ -1,7 +1,9 @@
-// Get the middle node in a linked list
-
+/**
+ * Returns the middle Node in a singly linked List
+ * @param {Node} head - head of the LinkedList
+ */
 let middleNode = (head) => {
-  if (head == null) {
+  if (!head) {
     return null;
   }
   let current = head;

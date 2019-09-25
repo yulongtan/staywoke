@@ -1,0 +1,23 @@
+{
+  "name": "staywoke",
+  "version": "1.0.0",
+  "description": "This repo is dedicated to keeping our minds fresh on programming problems. These will include many programming concepts, such as string manipulation, loops, recursion, and data structures. These problems will most likely be found throughout the internet, but more often from prominent sites, such as [LeetCode](https://leetcode.com/). The languages involved will vary, but they will be predominantly `C#`, `Java`, and `JavaScript`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulongtan/staywoke.git"
+  },
+  "author": "Yulong Tan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yulongtan/staywoke/issues"
+  },
+  "homepage": "https://github.com/yulongtan/staywoke#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}

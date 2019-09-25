@@ -1,5 +1,4 @@
 const expect = require('chai').expect;
-
 const reverse = require('../js/Reverse');
 
 describe('Testing reverse', () => {
@@ -8,13 +7,13 @@ describe('Testing reverse', () => {
     const str = '';
     const expected = '';
     const actual = reverse(str);
-    expect(expected).to.equal(actual);
+    expect(actual).to.equal(expected);
   });
 
   it('general case', () => {
     const str = 'some test';
     const expected = 'tset emos';
     const actual = reverse(str);
-    expect(expected).to.equal(actual);
+    expect(actual).to.equal(expected);
   });
 })

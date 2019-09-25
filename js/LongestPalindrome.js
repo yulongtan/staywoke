@@ -35,3 +35,5 @@ let longestPalindrome = (s) => {
   let center = Object.keys(map).length >= 1 ? 1 : 0;
   return pairs * 2 + center;
 };
+
+module.exports = longestPalindrome;

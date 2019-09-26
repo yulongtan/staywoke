@@ -1,10 +1,11 @@
 const TreeNode = require('./DataStructures/TreeNode');
 
 /**
- * Decodes your encoded data to tree.
- *
- * @param {String} - String representation of a tree
- * @returns {TreeNode}
+ * 
+ * Deserializes a string into a binary tree
+ * @param {String} data string representation of a tree
+ * @returns {TreeNode} a Tree based on the string
+ * 
  */
 const deserializeTree = (data) => {
   if (!data || !data.length) {

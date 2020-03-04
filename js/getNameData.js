@@ -5,7 +5,6 @@
  */
 
 // Given this html
-
 <form id='form'>
   <input type='text' name='foo.bar' />
   <input type='text' name='foo.baz.qux' />
@@ -13,21 +12,20 @@
 </form>
 
 // return this json
-
 let returnValue =
 {
-  'foo': {
-    'bar': 'some value',
-    'baz': {
-      'qux': 'some value'
+  foo: {
+    bar: 'some value',
+    baz: {
+      qux: 'some value'
     }
   },
-  'qux': 'some value'
+  qux: 'some value'
 }
 
 // My solution (we're given the form id)
 const getNameData = formId => {
-  let result =  {};
+  let result = {};
   let form = document.getElementById(formId);
   let inputs = document.querySelector(`${form.id} inputs`);
   for (let input in inputs) {
